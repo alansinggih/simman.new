@@ -9,7 +9,15 @@ Addons firefox untuk memudahkan kegiatan
 Fitur baru untuk tampilan pengaturan:
 
 ---
-
+ ### Versi 5.0.1
+    Perbaikan bug pada laman option
+    Pengenalan domain server baru
+    berbaikan bug
+    
+ ### Versi 4.2.4
+    Perbaikan bug pada laman option
+    Pengenalan domain server baru
+    
  ### Release 4.2.3 
  * UI Setting lebih nyaman di gunakan
  * Penambahan Fitur "kembali"
