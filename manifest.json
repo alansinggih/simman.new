@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Sim-Man",
-  "version": "4.2.4",
+  "version": "5.1.0",
   "description": "Si pembantu yang Nyaman di tampilan UI Suport Dekstop and Mobile",
   "homepage_url": "https://github.com/usermh99/sim-man",
   "icons": {
@@ -11,7 +11,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://simpeg.kemenkum.go.id/*"],
+      "matches": ["https://simpeg.kemenimipas.go.id/*"],
       "css":["css/Dekstop.css"],
       "js": ["js/jquery-3.3.1.js","js/ops.js","js/tambahelemen.js"],
       "run_at": "document_idle"
@@ -41,11 +41,11 @@
     ,"browser_specific_settings": {
         "gecko": {
             "id": "sim-man@alansk.web",
-			"strict_min_version": "102.0"
+			"strict_min_version": "125.0"
 		  },
 		"gecko_android": {
 	        "id": "sim-man@alansk.web",
-			"strict_min_version": "113.0"
+			"strict_min_version": "115.0"
 		}
     }
  
