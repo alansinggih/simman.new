@@ -9,7 +9,7 @@ function onError(error) {
   console.log(`Error: ${error}`);
 }
 
-var updating = browser.tabs.update({url: 'https://simpeg.kemenkum.go.id'});
+var updating = browser.tabs.update({url: 'https://simpeg.kemenimipas.go.id'});
 updating.then(onUpdated, onError);
 
 }
