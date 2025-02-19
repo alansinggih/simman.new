@@ -4,7 +4,7 @@ var simMan = {
     init : function() {
         
         browser.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
-                      const filter = "https://simpeg.kemenkum.go.id/*";
+                      const filter = "https://simpeg.kemenimipas.go.id/*";
                       if (!tab.url.match(filter)) {
                         browser.browserAction.setTitle({title:'Simpeg - Url Tidak Support'})
                         browser.browserAction.setIcon({path:{48:'icons/bs128-nosupport.png'}});
@@ -42,7 +42,7 @@ var simMan = {
  
                     browser.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
 
-                            const filter = "https://simpeg.kemenkum.go.id/*";
+                            const filter = "https://simpeg.kemenimipas.go.id/*";
                             if (!tab.url.match(filter)) {
                                 browser.browserAction.setTitle({title:'Simpeg - Url Tidak Support'})
                                 browser.browserAction.setIcon({path:{48:'icons/bs128-nosupport.png'}});
@@ -58,7 +58,7 @@ var simMan = {
                 }else if(greeting === "selain_skp_journal"){
                     browser.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
 
-                            const filter = "https://simpeg.kemenkum.go.id/*";
+                            const filter = "https://simpeg.kemenimipas.go.id/*";
                             if (!tab.url.match(filter)) {
                                 var cekMob = tab.url
                                 browser.browserAction.setTitle({title:'Simpeg - Url Tidak Support'})
